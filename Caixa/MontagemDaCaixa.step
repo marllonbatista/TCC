@@ -10,7 +10,7 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'MontagemDaCaixa.step',
-/* time_stamp */ '2026-04-01T20:57:50-03:00',
+/* time_stamp */ '2026-04-09T15:47:40-03:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.1',
@@ -125,11 +125,12 @@ SHAPE_REPRESENTATION_RELATIONSHIP()
 #52=NEXT_ASSEMBLY_USAGE_OCCURRENCE('Base Inferior v44:1',
 'Base Inferior v44:1','Base Inferior v44:1',#9566,#9567,
 'Base Inferior v44:1');
-#53=NEXT_ASSEMBLY_USAGE_OCCURRENCE('Lateral esquerda v9:1',
-'Lateral esquerda v9:1','Lateral esquerda v9:1',#9566,#9568,
-'Lateral esquerda v9:1');
-#54=NEXT_ASSEMBLY_USAGE_OCCURRENCE('Lateral v40:2','Lateral v40:2',
-'Lateral v40:2',#9566,#9569,'Lateral v40:2');
+#53=NEXT_ASSEMBLY_USAGE_OCCURRENCE('LateralDireita v9:1',
+'LateralDireita v9:1','LateralDireita v9:1',#9566,#9568,
+'LateralDireita v9:1');
+#54=NEXT_ASSEMBLY_USAGE_OCCURRENCE('LateralEsquerda v40:2',
+'LateralEsquerda v40:2','LateralEsquerda v40:2',#9566,#9569,
+'LateralEsquerda v40:2');
 #55=NEXT_ASSEMBLY_USAGE_OCCURRENCE('Frontal v18:1','Frontal v18:1',
 'Frontal v18:1',#9566,#9570,'Frontal v18:1');
 #56=NEXT_ASSEMBLY_USAGE_OCCURRENCE('Posterior_1 v4:1',
@@ -9824,7 +9825,7 @@ SOLID_ANGLE_UNIT()
 #9558=SHAPE_REPRESENTATION('',(#6252),#9508);
 #9559=SHAPE_REPRESENTATION('',(#6303),#9509);
 #9560=PRODUCT_DEFINITION_CONTEXT('part definition',#9595,'design');
-#9561=PRODUCT_DEFINITION('CAIXA','CAIXA v21',#9572,#9560);
+#9561=PRODUCT_DEFINITION('CAIXA','CAIXA v23',#9572,#9560);
 #9562=PRODUCT_DEFINITION('Montagem da tampa','Montagem da tampa v9',#9573,
 #9560);
 #9563=PRODUCT_DEFINITION('Base Superior Tampa',
@@ -9834,9 +9835,9 @@ SOLID_ANGLE_UNIT()
 #9566=PRODUCT_DEFINITION('Montagem da base','Montagem da base v59',#9577,
 #9560);
 #9567=PRODUCT_DEFINITION('Base Inferior','Base Inferior v44',#9578,#9560);
-#9568=PRODUCT_DEFINITION('Lateral esquerda','Lateral esquerda v9',#9579,
+#9568=PRODUCT_DEFINITION('LateralDireita','LateralDireita v9',#9579,#9560);
+#9569=PRODUCT_DEFINITION('LateralEsquerda','LateralEsquerda v40',#9580,
 #9560);
-#9569=PRODUCT_DEFINITION('Lateral','Lateral v40',#9580,#9560);
 #9570=PRODUCT_DEFINITION('Frontal','Frontal v18',#9581,#9560);
 #9571=PRODUCT_DEFINITION('Posterior_1','Posterior_1 v4',#9582,#9560);
 #9572=PRODUCT_DEFINITION_FORMATION('',$,#9597);
@@ -9850,7 +9851,7 @@ SOLID_ANGLE_UNIT()
 #9580=PRODUCT_DEFINITION_FORMATION('',$,#9605);
 #9581=PRODUCT_DEFINITION_FORMATION('',$,#9606);
 #9582=PRODUCT_DEFINITION_FORMATION('',$,#9607);
-#9583=PRODUCT_RELATED_PRODUCT_CATEGORY('CAIXA v21','CAIXA v21',(#9597));
+#9583=PRODUCT_RELATED_PRODUCT_CATEGORY('CAIXA v23','CAIXA v23',(#9597));
 #9584=PRODUCT_RELATED_PRODUCT_CATEGORY('Montagem da tampa v9',
 'Montagem da tampa v9',(#9598));
 #9585=PRODUCT_RELATED_PRODUCT_CATEGORY('Base Superior Tampa v10',
@@ -9863,9 +9864,10 @@ SOLID_ANGLE_UNIT()
 'Montagem da base v59',(#9602));
 #9589=PRODUCT_RELATED_PRODUCT_CATEGORY('Base Inferior v44',
 'Base Inferior v44',(#9603));
-#9590=PRODUCT_RELATED_PRODUCT_CATEGORY('Lateral esquerda v9',
-'Lateral esquerda v9',(#9604));
-#9591=PRODUCT_RELATED_PRODUCT_CATEGORY('Lateral v40','Lateral v40',(#9605));
+#9590=PRODUCT_RELATED_PRODUCT_CATEGORY('LateralDireita v9',
+'LateralDireita v9',(#9604));
+#9591=PRODUCT_RELATED_PRODUCT_CATEGORY('LateralEsquerda v40',
+'LateralEsquerda v40',(#9605));
 #9592=PRODUCT_RELATED_PRODUCT_CATEGORY('Frontal v18','Frontal v18',(#9606));
 #9593=PRODUCT_RELATED_PRODUCT_CATEGORY('Posterior_1 v4',
 'Posterior_1 v4',(#9607));
@@ -9874,15 +9876,15 @@ SOLID_ANGLE_UNIT()
 #9595=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #9596=PRODUCT_CONTEXT('part definition',#9595,'mechanical');
-#9597=PRODUCT('CAIXA','CAIXA v21',$,(#9596));
+#9597=PRODUCT('CAIXA','CAIXA v23',$,(#9596));
 #9598=PRODUCT('Montagem da tampa','Montagem da tampa v9',$,(#9596));
 #9599=PRODUCT('Base Superior Tampa','Base Superior Tampa v10',$,(#9596));
 #9600=PRODUCT('Tampa Frontal','Tampa Frontal v6',$,(#9596));
 #9601=PRODUCT('Tampa Lateral','Tampa Lateral v5',$,(#9596));
 #9602=PRODUCT('Montagem da base','Montagem da base v59',$,(#9596));
 #9603=PRODUCT('Base Inferior','Base Inferior v44',$,(#9596));
-#9604=PRODUCT('Lateral esquerda','Lateral esquerda v9',$,(#9596));
-#9605=PRODUCT('Lateral','Lateral v40',$,(#9596));
+#9604=PRODUCT('LateralDireita','LateralDireita v9',$,(#9596));
+#9605=PRODUCT('LateralEsquerda','LateralEsquerda v40',$,(#9596));
 #9606=PRODUCT('Frontal','Frontal v18',$,(#9596));
 #9607=PRODUCT('Posterior_1','Posterior_1 v4',$,(#9596));
 #9608=PRESENTATION_STYLE_ASSIGNMENT((#9609));

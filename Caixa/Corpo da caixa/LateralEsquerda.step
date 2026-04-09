@@ -10,7 +10,7 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'LateralEsquerda.step',
-/* time_stamp */ '2026-04-01T21:03:26-03:00',
+/* time_stamp */ '2026-04-09T15:48:44-03:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.1',
@@ -1680,15 +1680,17 @@ SOLID_ANGLE_UNIT()
 #1620=PRODUCT_DEFINITION_SHAPE('',$,#1623);
 #1621=SHAPE_REPRESENTATION('',(#1007),#1613);
 #1622=PRODUCT_DEFINITION_CONTEXT('part definition',#1627,'design');
-#1623=PRODUCT_DEFINITION('Lateral','Lateral v40',#1624,#1622);
+#1623=PRODUCT_DEFINITION('LateralEsquerda','LateralEsquerda v40',#1624,
+#1622);
 #1624=PRODUCT_DEFINITION_FORMATION('',$,#1629);
-#1625=PRODUCT_RELATED_PRODUCT_CATEGORY('Lateral v40','Lateral v40',(#1629));
+#1625=PRODUCT_RELATED_PRODUCT_CATEGORY('LateralEsquerda v40',
+'LateralEsquerda v40',(#1629));
 #1626=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#1627);
 #1627=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #1628=PRODUCT_CONTEXT('part definition',#1627,'mechanical');
-#1629=PRODUCT('Lateral','Lateral v40',$,(#1628));
+#1629=PRODUCT('LateralEsquerda','LateralEsquerda v40',$,(#1628));
 #1630=PRESENTATION_STYLE_ASSIGNMENT((#1631));
 #1631=SURFACE_STYLE_USAGE(.BOTH.,#1632);
 #1632=SURFACE_SIDE_STYLE('',(#1633));

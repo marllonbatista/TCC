@@ -21,7 +21,7 @@ Este repositório foi criado para guardar os arquivos relacionados ao TCC.
 |Castanha TR8|https://grabcad.com/library/castanha-tr8-com-passo-de-2mm-1| 
 |Acoplamento Flexivel|https://grabcad.com/library/7862-aluminum-flexible-coupling-coupler-helical-shaft-5mm-x-8mm-sunrobotics_in-1|
 |Motor de Passo 17hs4401s|https://grabcad.com/library/17hs4401s-nema-17-stepper-motor-freecad-model-1| 
-|Motor Aks55|https://grabcad.com/library/motor-dc12v-18200rpm-akiyama-ak555-390ml12s18200c-1|
+|Motor 775|https://grabcad.com/library/dc-motor-775-1|
 |POLIA 20 DENTES|https://grabcad.com/library/polia-gt2-20-dentes-com-rolamento-gt2-pulley-with-bearing-1| 
 |Polia Sincronizadora GT2 20 dentes|https://grabcad.com/library/polia-aluminio-gt2-20-dentes-furo-5mm-1|
 |Prensa Cabo PG11|https://grabcad.com/library/cable-gland-pg-11-to-29-1|
