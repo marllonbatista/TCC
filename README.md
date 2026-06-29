@@ -6,7 +6,7 @@ Este repositório foi criado para guardar os arquivos relacionados ao TCC.
 **Orientador:** Prof. D.Sc William da Silva Vianna\
 **Coorientador:** Eng. Revair Mendes Lourenço
 ## Foto do projeto
-<img src="imgs\cncMontada.jpg" alt="CNC Duna">
+<img src="imgs\cncMontada1.png" alt="CNC Duna">
 
 ## Link das peças baixadas do GrabCAD
 | Peça | Link |
