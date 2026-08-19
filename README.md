@@ -3,7 +3,7 @@
 Este repositório foi criado para guardar os arquivos relacionados ao TCC.
 ## Responsáveis
 **Alunos:** Larisa Barreto Clemente Alves e Marllon Batista da Conceição\
-**Orientador:** Prof. D.Sc William da Silva Vianna\
+**Orientador:** D.Sc William da Silva Vianna\
 **Coorientador:** Eng. Revair Mendes Lourenço
 ## Foto do projeto
 <img src="imgs\cncMontada1.png" alt="CNC Duna">
